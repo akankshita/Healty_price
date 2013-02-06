@@ -1,8 +1,27 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    actionmailer (2.3.11)
+      actionpack (= 2.3.11)
+    actionpack (2.3.11)
+      activesupport (= 2.3.11)
+      rack (~> 1.1.0)
+    activerecord (2.3.11)
+      activesupport (= 2.3.11)
+    activeresource (2.3.11)
+      activesupport (= 2.3.11)
+    activesupport (2.3.11)
     libv8 (3.11.8.13)
     pg (0.14.1)
+    rack (1.1.5)
+    rails (2.3.11)
+      actionmailer (= 2.3.11)
+      actionpack (= 2.3.11)
+      activerecord (= 2.3.11)
+      activeresource (= 2.3.11)
+      activesupport (= 2.3.11)
+      rake (>= 0.8.3)
+    rake (10.0.3)
     recaptcha (0.3.4)
     ref (1.0.2)
     therubyracer (0.11.3)
@@ -14,5 +33,6 @@ PLATFORMS
 
 DEPENDENCIES
   pg
+  rails (= 2.3.11)
   recaptcha
   therubyracer
