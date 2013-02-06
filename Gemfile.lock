@@ -1,12 +1,20 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    libv8 (3.11.8.13)
+    pg (0.14.1)
     recaptcha (0.3.4)
+    ref (1.0.2)
     rmagick (2.13.1)
+    therubyracer (0.11.3)
+      libv8 (~> 3.11.8.12)
+      ref
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  pg
   recaptcha
   rmagick
+  therubyracer
