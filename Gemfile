@@ -1,5 +1,5 @@
 source :gemcutter
-gem 'rmagick'
+#gem 'rmagick'
 gem 'recaptcha'
   gem 'therubyracer', :platforms => :ruby, :require => 'v8'
   gem "pg"
